@@ -13,7 +13,7 @@ describe "ContextifyHandler" do
     end
 
     it "should register a Kernel method for the class" do
-      yard('Kernel#simple_context').should be_instance_of(CodeObjects::ModuleObject)
+      yard('Kernel#simple_context').should be_instance_of(CodeObjects::MethodObject)
     end
   end
 
