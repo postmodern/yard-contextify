@@ -1,0 +1,7 @@
+class SimpleClass
+
+  include Contextify
+
+  contextify :simple_context
+
+end

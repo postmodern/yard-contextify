@@ -1,0 +1,7 @@
+class BadClass
+
+  include Contextify
+
+  contextify = contextify.to_s.to_sym
+
+end
